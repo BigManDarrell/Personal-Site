@@ -1,0 +1,252 @@
+body{
+    font-family: 'Ubuntu',
+    sans-serif;
+    text-align: center;
+}
+
+span{
+    color: #3F72AF;
+}
+
+p{
+    font-family: 'Montserrat',
+    sans-serif;
+    color: #8F8F8F;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #112D4E;
+    color: white;
+}
+.white-section{
+    background-color: white;
+}
+
+/* Headings */
+
+.big-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Top Section */
+
+#top .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+#top h1{
+    font-family: 'Montserrat',
+    sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+/* Navbar */
+
+.navbar{
+    padding-bottom: 7rem;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat',
+    sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+/* Title Image */
+
+.title-img{
+    width: 60%;
+    margin-left: 35%;
+}
+
+/* Skills Section */
+
+#skills h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.icons{
+    font-size: 4rem;
+    color: #3F72AF;
+    margin-bottom: 1.2rem;
+}
+
+.skills{
+    padding: 4%;
+}
+
+/* Journey Section */
+
+#journey{
+    background-color: #3F72AF;
+}
+
+.journey-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* CTA Section */
+
+#cta h2{
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+#cta h3{
+    font-size: 1.5rem;
+    margin: 25px auto 50px;
+}
+
+.cta-btn {
+    background: #3F72AF;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.cta-btn:hover{
+    color: #ffffff;
+    background: #112D4E;
+    text-decoration: none;
+}
+
+/* Footer Section */
+
+.footer-icon{
+    margin: 20px 10px 50px;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+#footer p{
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 1028px) {
+
+    /* Headings */
+    
+    .big-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+        line-height: 1.5;
+    }
+    
+    .section-heading {
+        font-size: 1.25rem;
+        line-height: 1.5;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        padding-bottom: 5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.75rem;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    /* Title Image */
+
+    .title-img {
+        width: 50%;
+        margin: 70px auto;
+    }
+
+    /* Top Section */
+
+    #top .container-fluid {
+        text-align: center;
+    }
+
+    /* Skills Section */
+
+    .skills {
+        padding: 7%;
+    }
+
+    #skills h3 {
+        font-size: 1.2rem;
+    }
+
+    #skills p {
+        font-size: 0.9rem;
+    }
+
+    .icons {
+        font-size: 3rem;
+    }
+
+    /* Journey Section */
+
+    #journey h2 {
+        font-size: 1.15rem;
+    }
+
+    /* CTA Section */
+
+    #cta h2 {
+        font-size: 1.75rem;
+    }
+
+    #cta h3 {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        font-size: 16px;
+    }
+
+    /* Footer Section */
+
+    .footer-icon {
+        font-size: 1rem;
+    }
+
+    #footer p {
+        font-size: 0.5rem;
+    }
+
+}
