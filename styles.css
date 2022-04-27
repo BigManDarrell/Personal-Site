@@ -222,13 +222,13 @@ p{
     /* Journey Section */
 
     #journey h2 {
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
 
     /* CTA Section */
     
     #cta .container-fluid {
-        padding: 12% 20%;
+        padding: 10% 18%;
     }
 
     #cta h2 {
